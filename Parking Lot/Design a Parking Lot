@@ -1,0 +1,12 @@
+#Requirement
+
+1. I should get the parking spot for my car if available, if it is not avaolable I will be denied
+2. There could be different size of car - small, medium, large
+3. Parking lot has different floors
+4. My parking spot should be nearest to the exit gate
+5. For each parking there would be a parking ticket that has parking charge, parking spot, parking time, due time etc.
+6. Fine is applicable if parked after due time
+7. Utilize the space
+8. Should be aware of which parking spot is vacant or filled
+
+
