@@ -1,12 +1,45 @@
 #Requirement
 
-1. I should get the parking spot for my car if available, if it is not avaolable I will be denied
-2. There could be different size of car - small, medium, large
-3. Parking lot has different floors
-4. My parking spot should be nearest to the exit gate
-5. For each parking there would be a parking ticket that has parking charge, parking spot, parking time, due time etc.
-6. Fine is applicable if parked after due time
-7. Utilize the space
-8. Should be aware of which parking spot is vacant or filled
+1. Customer should get the parking spot for my car if available, if it is not available customer will be denied
+2. There could be different parking spots - compact , large, handicaped , motorcycle etc
+3. Different parking spot for EV with charging points through which customer can pay and charge
+4. Parking lot has multiple floors
+5. Has multiple entry and exit points.
+6. Can collect parking ticket from entry point and can pay the fee at exit point
+7. Can pay at customer info portals and once paid do not need to pay at exit points
+8. payment could be done via cash and credit cards
+9. Each parking floor should have a display board showing any free parking spot for each spot type.
+10. For each parking there would be a parking ticket that has parking charge, parking spot, parking time.
+11. The system should support a per-hour parking fee model.
+    For example, customers have to pay $4 for the first hour,
+    $3.5 for the second and third hours, and $2.5 for all the remaining hours.
+
+#Use Case Diagram
+
+ACTORS:
+
+1. CUSTOMER - All customer can get parking tickets and can pay for it.
+2. ADMIN - ADMINs can add or modify, floors, parking spots,  entry exit gates, parking attendants
+3. Parking attendants can do all the activities on the customer’s behalf,
+   and can take cash for ticket payment.
+3. SYSTEM - To display messages on different info panels, as well as assigning and removing a vehicle
+   from a parking spot.
+
+Here are the top use cases for Parking Lot:
+
+1. Create Parking Lot - admin
+2. Add remove/ modify parking floor - admin
+3. Add remove/modify parking spot - -admin
+4. Add remove/modify parking attendants - admin
+5. Add remove/modify entry exit gates - admin
+6. Process payment - Parking Attendent
+7. take ticket - Customer
+8. scan ticket - Parking attendent/
+9. Add/Modify parking rate - admin
+
+
+
+
+
 
 
