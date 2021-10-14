@@ -1,0 +1,40 @@
+#System Requirements
+
+1. customer or admin can search a book by Title, Author, subject category
+2. In library librarian can add, remove or edit a book
+3. Customer or librarian can  checkout or submit a book
+4. Book need to be return max before 15 days
+5. Customer can't issue a more than 5 books
+6. Customer details issued books
+7. System should collect Fine if book is not submitted after return date
+8. A book can have multiple copies bookItem
+9. Book can located physically at which rack it is kept and have unique Id
+10. System Notify when book issued, book submited, submit book reminder within due date
+11. The system should be able to retrieve information like who took a particular book or what are the books
+    checked-out by a specific library member.
+12. Library member can Reserve book that are not available notify once book is available
+13. Each book and member card will have a unique barcode. The system will be able to read barcodes from
+    books and members’ library cards.
+
+
+# Use Case Digram
+
+-- Identify Actors and responsibility
+
+1. Librarian - Mainly librarian is responsible to add and modify books, bokk Items and Users. Librarian can
+   also issue, reserve, return book
+2. Member - search, checkout, reserve, renew, return
+3. System - send notification for cancelled reservation , overdue etc.
+
+
+-- top use cases
+
+1. Add/Remove or update - To add, remove, update book or bookItem
+2. search catalog - search by Title, author or subject category
+3. Register new account/cancel membership
+4. checkout book
+5. reserve book
+6. renew book
+7. return book
+
+
